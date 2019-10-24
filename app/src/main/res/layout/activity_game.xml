@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:columnCount="3"
+    android:rowCount="3"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/button00"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="00"/>
+
+    <ImageView
+        android:id="@+id/button01"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="01"/>
+
+    <ImageView
+        android:id="@+id/button02"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="02"/>
+
+    <ImageView
+        android:id="@+id/button10"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="10"/>
+
+    <ImageView
+        android:id="@+id/button11"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="11"/>
+
+    <ImageView
+        android:id="@+id/button12"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="12"/>
+
+    <ImageView
+        android:id="@+id/button20"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="20"/>
+
+    <ImageView
+        android:id="@+id/button21"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="21"/>
+
+    <ImageView
+        android:id="@+id/button22"
+        android:src="@drawable/backgroundw"
+        android:scaleType="fitCenter"
+        android:contentDescription="An image of a monster for buttons"
+        android:onClick="onButtonClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:paddingRight="5dp"
+        android:clickable="true"
+        android:tag="22"/>
+
+        <ImageView
+            android:id="@+id/turnImage"
+            android:src="@drawable/backgroundw"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight=".5"
+            android:layout_columnWeight="1"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:tag="3"/>
+
+        <TextView
+            android:id="@+id/turnText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight=".5"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2"
+            android:padding="5dp"
+            android:textColor="@color/colorText"
+            android:text="@string/turn"/>
+
+        <Button
+            android:id="@+id/playAgainButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight=".25"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2"
+            android:padding="5dp"
+            android:visibility="invisible"
+            android:text="@string/PlayAgain"/>
+
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight=".25"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:padding="5dp"
+            android:text="@string/Quit"/>
+
+</GridLayout>
